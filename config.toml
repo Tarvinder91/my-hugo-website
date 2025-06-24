@@ -1,0 +1,95 @@
+baseURL = 'https://tarvinder91.github.io/'
+languageCode = 'en-us'
+title = 'Tarvinder Singh'
+theme = "hugo-resume"
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+firstName = "Tarvinder"
+lastName = "Singh"
+email = ""
+phone = ""
+address = "Toronto, Canada"
+profileImage = "images/profile.jpg" # place your image in static/images/
+favicon = "favicon.ico"
+description = "Cloud Architect | DevOps Lead | AI Innovator"
+summary = "Experienced Cloud and DevOps leader with 11+ years across AWS, Azure, and automation. Helping businesses scale with cloud-native solutions."
+showSkills = true
+showProjects = true
+showOpenSource = false
+showPublications = false
+showExperience = true
+showEducation = true
+showBlog = false
+showQr = false
+
+[[params.social]]
+icon = "linkedin"
+url = "https://linkedin.com/in/tarvinder91"
+
+[[params.social]]
+icon = "github"
+url = "https://github.com/tarvinder91"
+
+[[params.social]]
+icon = "twitter"
+url = "https://twitter.com/yourhandle"
+
+[[params.skills]]
+name = "Cloud Infrastructure (AWS, Azure)"
+weight = 5
+
+[[params.skills]]
+name = "DevOps & Automation"
+weight = 5
+
+[[params.skills]]
+name = "CI/CD (GitHub Actions, ArgoCD)"
+weight = 4
+
+[[params.skills]]
+name = "AI/ML Integration in Cloud"
+weight = 4
+
+[[params.skills]]
+name = "Leadership & Cross-functional Collaboration"
+weight = 4
+
+[[params.projects]]
+name = "GitOps Framework with ArgoCD"
+description = "Designed and implemented GitOps workflows for multi-region microservices using ArgoCD, Helm, and Kustomize."
+url = "https://github.com/yourusername/argocd-gitops"
+
+[[params.projects]]
+name = "Multi-cloud Infra Automation"
+description = "Provisioned and managed infrastructure across AWS & Azure using Terraform and Ansible."
+url = "https://github.com/yourusername/infra-automation"
+
+[[params.experience]]
+employer = "Cognizant Technology Solutions Canada"
+position = "Manager - Cloud & DevOps"
+city = "Ontario"
+startDate = "2022"
+endDate = ""
+summary = "Leading cloud infrastructure and DevOps strategy for enterprise clients."
+
+[[params.experience]]
+employer = "Previous Company"
+position = "Cloud Engineer"
+city = "India"
+startDate = "2015"
+endDate = "2022"
+summary = "Built automation pipelines, migrated workloads to AWS, and supported hybrid cloud environments."
+
+[[params.education]]
+degree = "B.Tech in Computer Science"
+school = "XYZ University"
+location = "India"
+date = "2010 - 2014"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
