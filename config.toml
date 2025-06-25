@@ -4,6 +4,9 @@ title = 'Tarvinder Singh'
 theme = "hugo-resume"
 enableRobotsTXT = true
 canonifyURLs = true
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
 
 [params]
 firstName = "Tarvinder"
@@ -16,25 +19,32 @@ favicon = "favicon.ico"
 description = "Cloud Architect | DevOps Lead | AI Innovator"
 summary = "Experienced Cloud and DevOps leader with 11+ years across AWS, Azure, and automation. Helping businesses scale with cloud-native solutions."
 showSkills = true
-showProjects = true
+showProjects = false
 showOpenSource = false
 showPublications = false
 showExperience = true
-showEducation = true
+showEducation = false
 showBlog = false
+
 showQr = false
+showContact = false
+showBoards  = false
+showCertifications = true
+showSocializations = true
+sections = ["skills","experience"]
 
-[[params.social]]
-icon = "linkedin"
-url = "https://linkedin.com/in/tarvinder91"
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/tarvinder91/"
 
-[[params.social]]
-icon = "github"
-url = "https://github.com/tarvinder91"
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/tarvinder91/"
 
-[[params.social]]
-icon = "twitter"
-url = "https://twitter.com/yourhandle"
+[[params.handles]]
+    link = "https://stackoverflow.com/users/1757168/tarvinder91"
+    name = "Stack Overflow"
+    icon = "stack-overflow"
 
 [[params.skills]]
 name = "Cloud Infrastructure (AWS, Azure)"
@@ -55,7 +65,7 @@ weight = 4
 [[params.skills]]
 name = "Leadership & Cross-functional Collaboration"
 weight = 4
-
+    
 [[params.projects]]
 name = "GitOps Framework with ArgoCD"
 description = "Designed and implemented GitOps workflows for multi-region microservices using ArgoCD, Helm, and Kustomize."

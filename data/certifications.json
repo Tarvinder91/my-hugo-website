@@ -1,0 +1,44 @@
+[
+	{
+		"name":"AWS Devops Engineer Professional",
+		"description": "AWS Certified Devops Engineer Professional",
+		"badge":"https://images.credly.com/size/680x680/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png",
+		"proof":"https://www.credly.com/badges/b9ecd053-7784-4903-a6d7-cdb3ff0f79a1"
+
+	},
+	{
+		"name":"AWS Certified SysOps Administrator – Associate",
+		"description": "AWS Certified SysOps Administrator – Associate",
+		"badge":"https://images.credly.com/size/680x680/images/f0d3fbb9-bfa7-4017-9989-7bde8eaf42b1/image.png",
+		"proof":"https://www.credly.com/badges/c250da44-a8e2-4c28-aead-35aac3879114/"
+
+	},
+	{
+		"name":"AWS Solutions Architect - Associate",
+		"description": "AWS Certified Solutions Architect – Associate",
+		"badge":"https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
+		"proof":"https://www.credly.com/badges/bd04abec-59ad-437f-8ea4-81c7ca88dba0"
+		
+	},
+		{
+		"name":"Google Associate Cloud Engineer",
+		"description": "Google Associate Cloud Engineer",
+		"badge":"https://images.credly.com/size/680x680/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png",
+		"proof":"https://www.credential.net/fe018eab-6bfb-4815-ab64-f5fb97720ddb"
+		
+	},
+	{
+		"name":"Google Cloud Digital Leader",
+		"description": "Cloud Digital Leader",
+		"badge":"https://images.credly.com/size/680x680/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png",
+		"proof":"https://www.credential.net/04a05f13-76a1-43c7-b544-c55a83945281"
+		
+	},
+	{
+		"name":"Certified in Cybersecurity (CC)",
+		"description": "Certified in Cybersecurity (CC)",
+		"badge":"https://images.credly.com/size/680x680/images/2030e43f-8003-4d4b-9630-847add403c87/image.png",
+		"proof":"https://www.credly.com/badges/531f9648-1606-4034-997f-fdb07d30344a"
+		
+	}
+]

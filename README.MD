@@ -2,7 +2,7 @@
 
 This is my personal portfolio website, built using [Hugo](https://gohugo.io/) and the [hugo-resume](https://themes.gohugo.io/themes/hugo-resume) theme. It showcases my experience in cloud infrastructure, DevOps leadership, and AI-driven cloud solutions.
 
-> 🌐 Live Site: [https://your-github-username.github.io](https://your-github-username.github.io)
+> 🌐 Live Site: [https://tarvinder91.github.io](https://tarvinder91.github.io)
 
 ---
 
@@ -18,14 +18,7 @@ This is my personal portfolio website, built using [Hugo](https://gohugo.io/) an
 
 ## 🚧 Setup Instructions
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-github-username/your-github-username.github.io.git
-cd your-github-username.github.io
-```
-
-### 2. Install Hugo (if not installed)
+### 1. Install Hugo (if not installed)
 
 ```bash
 brew install hugo           # macOS/Linux
@@ -33,15 +26,35 @@ brew install hugo           # macOS/Linux
 sudo apt install hugo       # Debian/Ubuntu
 ```
 
-### 3. Initialize Hugo Theme
+### 2: Create a New Hugo Site
 
 ```bash
-git submodule add https://github.com/resume/resume-theme.git themes/hugo-resume
+hugo new site my-portfolio
+cd my-portfolio
+```
+### 3. Clone the Hugo theme as submodule
+
+```bash
+git init
+git submodule add https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
 ```
 
-> If using this template, the theme is already included as a submodule.
+Update your config.toml
 
-### 4. Run Locally
+```bash
+baseURL = 'https://<your-github-username>.github.io/'
+languageCode = 'en-us'
+title = 'Your Name | Portfolio'
+theme = 'hugo-profile'
+```
+
+### 4: Add Sample Content
+
+Create your content by copying files from theme\hugo-theme\exampleSite folder to the folders in your repository
+
+> Example: File content\Index.md is the homepage
+
+### 5. Run Locally
 
 ```bash
 hugo server -D
@@ -51,13 +64,13 @@ Visit: [http://localhost:1313](http://localhost:1313)
 
 ---
 
-## 🚀 Deploy to GitHub Pages
+## 🚀 Deploy to GitHub Pages. Create your own repository <username>.github.io
 
-### Option A: Deploy to `<username>.github.io`
+### Deploy to `<username>.github.io`
 
 ```bash
-hugo                      # builds site into ./public
-cd public
+hugo                      # builds site into ./public. Run this everytime before you push the changes to the repo
+cd public                 # the code in this folder would actually  actually committed to your repo
 git init
 git remote add origin https://github.com/your-github-username/your-github-username.github.io.git
 git add .
@@ -65,29 +78,16 @@ git commit -m "Initial portfolio"
 git push -u origin master
 ```
 
-### Option B: Deploy via `/docs` folder
-
-If using a custom repo:
-
-```bash
-hugo -d docs
-```
-
-Then in GitHub > Settings > Pages:
-- Source: `main` branch
-- Folder: `/docs`
-
 ---
 
 ## 🧠 Credits
 
 - Built with [Hugo](https://gohugo.io/)
-- Theme: [hugo-resume](https://github.com/resume/resume-theme)
+- Theme: [hugo-resume](https://github.com/eddiewebb/hugo-resume.git)
 
 ---
 
 ## 📫 Contact
 
-- 🌐 [LinkedIn](https://linkedin.com/in/yourprofile)
-- 💻 [GitHub](https://github.com/yourusername)
-- 📧 your.email@example.com
+- 🌐 [LinkedIn](https://linkedin.com/in/tarvinder91)
+- 💻 [GitHub](https://github.com/tarvinder91)

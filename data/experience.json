@@ -1,0 +1,26 @@
+[
+    {
+        "role":"Manager - Projects (Cloud)",
+        "company":"Cognizant Technology Solutions Canada",
+        "summary":"Led the design and implementation of cloud platform solutions on AWS, Azure and GCP. Also designed MLOps platform on Azure.",
+        "range":"February 2016 - Present"
+    },
+    {
+        "role":"Senior Devops Engineer",
+        "company":"Hunch Manifest",
+        "summary":"Designed and implemented complete AWS infrastructure transformation, delivering secure networking, optimized storage and performance, robust security, and significant cost savings.",
+        "range":"Sep 2020 - May 2022"
+    },
+    {
+        "role":"Team Lead Devops",
+        "company":"Neuronimbus (PWC outsourcing partner)",
+        "summary":"Led a new team of 5+ engineers in automating DevOps pipelines, implementing infrastructure as code, and contributing to the design of scalable and secure cloud networking solutions.",
+        "range":"Sep 2017 - May 2020"
+    },
+        {
+        "role":"Professional 1- System Administrator",
+        "company":"DXC Technology",
+        "summary":"Administered VMware virtual machines, ESXi servers, EMC storage, and Windows servers, while leading infrastructure security patching and compliance efforts.",
+        "range":"Aug 2013 - Sep 2017"
+    }
+]

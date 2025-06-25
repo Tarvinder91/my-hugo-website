@@ -1,0 +1,29 @@
+[
+  {
+      "grouping":"Architecture",
+      "skills":[ "Landing Zone","Networking","DNS","Load Balancing","Microservices","Transit Gateway","MLOps" ]
+  },
+  {
+      "grouping":"Devops & Automation",
+      "skills":[ "Terraform","Bamboo","Github","Gitlab","AWS Cloudformation","Azure ARM", "Azure Devops","Lambda"]
+  },
+  {
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "Python","Powershell","bash"]
+  }, 
+ {
+      "grouping":"Cloud Security & Compliance",
+      "skills":[ "IAM","Security","WAF","VPN"]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Azure","link":"https://azure.microsoft.com"},
+          {"name":"AWS","link":"https://aws.amazon.com"},
+          {"name":"Google Cloud","link":"https://cloud.google.com"},
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"Kubernetes","link":"https://kubernetes.io"},
+          {"name":"AWS Lambda"}
+      ]
+  }
+]
