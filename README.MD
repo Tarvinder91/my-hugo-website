@@ -89,5 +89,6 @@ git push -u origin master
 
 ## 📫 Contact
 
-- 🌐 [LinkedIn](https://linkedin.com/in/tarvinder91)
-- 💻 [GitHub](https://github.com/tarvinder91)
+- 🌐 [LinkedIn](https://linkedin.com/in/tarvinder91) Reach me on linkedIn
+- 🤖 [AI Agent](https://huggingface.co/spaces/tarvinder91/career_conversations) Chat with my AI Agent to ask specific questions about my projects and skills
+

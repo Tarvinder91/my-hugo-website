@@ -46,6 +46,11 @@ sections = ["skills","experience"]
     name = "Stack Overflow"
     icon = "stack-overflow"
 
+[[params.handles]]
+    name = "My AI Agent"
+    link = "https://huggingface.co/spaces/tarvinder91/career_conversations"
+    icon = "robot"
+
 [[params.skills]]
 name = "Cloud Infrastructure (AWS, Azure)"
 weight = 5

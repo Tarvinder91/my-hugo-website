@@ -18,27 +18,41 @@
 		"description": "AWS Certified Solutions Architect – Associate",
 		"badge":"https://images.credly.com/size/680x680/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
 		"proof":"https://www.credly.com/badges/bd04abec-59ad-437f-8ea4-81c7ca88dba0"
-		
+
 	},
 		{
 		"name":"Google Associate Cloud Engineer",
 		"description": "Google Associate Cloud Engineer",
 		"badge":"https://images.credly.com/size/680x680/images/08096465-cbfc-4c3e-93e5-93c5aa61f23e/image.png",
 		"proof":"https://www.credential.net/fe018eab-6bfb-4815-ab64-f5fb97720ddb"
-		
+
 	},
 	{
 		"name":"Google Cloud Digital Leader",
 		"description": "Cloud Digital Leader",
 		"badge":"https://images.credly.com/size/680x680/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png",
 		"proof":"https://www.credential.net/04a05f13-76a1-43c7-b544-c55a83945281"
-		
+
+	},
+	{
+		"name":"Microsoft Certified: Azure Security Engineer Associate",
+		"description": "Microsoft Certified: Azure Security Engineer Associate",
+		"badge":"https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
+		"proof":"https://learn.microsoft.com/api/credentials/share/en-us/TARVINDER91/767E9C0435F4A637?sharingId=6E3B7182A56C0864"
+
 	},
 	{
 		"name":"Certified in Cybersecurity (CC)",
 		"description": "Certified in Cybersecurity (CC)",
 		"badge":"https://images.credly.com/size/680x680/images/2030e43f-8003-4d4b-9630-847add403c87/image.png",
 		"proof":"https://www.credly.com/badges/531f9648-1606-4034-997f-fdb07d30344a"
+
+	},
+	{
+		"name":"Generative AI Leader Certification",
+		"description": "Google Generative AI Leader Certification",
+		"badge":"https://images.credly.com/images/ec23e41a-0f32-4a98-9c00-28925621b281/blob",
+		"proof":"https://www.credly.com/badges/2775b32b-4838-4a4e-969a-ce954e7088b5/public_url"
 		
 	}
 ]

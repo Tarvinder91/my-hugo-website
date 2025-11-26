@@ -5,7 +5,7 @@
   },
   {
       "grouping":"Devops & Automation",
-      "skills":[ "Terraform","Bamboo","Github","Gitlab","AWS Cloudformation","Azure ARM", "Azure Devops","Lambda"]
+      "skills":[ "Terraform","Bamboo","Github","Gitlab","AWS Cloudformation", "Azure Devops","Lambda"]
   },
   {
       "grouping":"Languages, Operating Systems & Tools",

@@ -16,4 +16,4 @@ Currently, I'm leading cloud infrastructure strategy at **Cognizant Technology S
 
 ---
 
-Want to connect or collaborate? Reach out on my social handles.
+Reach out to me on my **social handles** 🗣️ or chat with **my virtual AI Agent 🤖** that I have built to ask specific questions about my projects and skills (Click Restart space if its OFF)
